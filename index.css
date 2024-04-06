@@ -1,0 +1,52 @@
+body{
+    background-color: blueviolet;
+}
+#myclock{
+    position: relative;
+    /* background-color: red;
+    border: 2px solid red; */
+    width: 43vw;
+    height: 43vw;
+    margin: auto;
+    background: url(clock6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#hour_hand, #minute_hand ,#second_hand{
+    background-color: black;
+    width: 2%;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour_hand{
+    background-color: black;
+    width: 2%;
+    height: 30%;
+    top: 20%;
+    left: 49%;
+    /* display: none; */
+
+}
+
+#minute_hand{
+    background-color: red;
+    width: 2%;
+    height: 36%;
+    top: 14.5%;
+    left: 49.9%;
+    /* display:none ; */
+}
+#second_hand{
+   
+    background-color: blue;
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 49.8%;
+
+
+}
